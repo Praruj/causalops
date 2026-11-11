@@ -132,7 +132,8 @@ next to the recovery for each suspect.
 - **The decoys were built to be harmless.** That is what makes the truth known, but
   real "harmless" drift is rarely that clean.
 - **One model type** (gradient-boosted trees) and one seed for the main table.
-- **CI is written but has not run on GitHub yet.** I ran the same commands locally.
+- **CI only runs a 20-incident benchmark**, to check the pipeline end to end. The
+  numbers above come from the full run on my laptop.
 
 ## Layout
 
